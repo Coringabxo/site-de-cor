@@ -1,0 +1,127 @@
+/* Reset básico para garantir que o estilo seja consistente em diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+/* Estilos para o título principal */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os subtítulos */
+h2, h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo para os parágrafos */
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Estilo para listas */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* Destaque para itens de lista */
+ul li {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Estilo para os blocos de harmonia cromática */
+.harmonia {
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Exemplos de texto em itálico */
+.example {
+    font-style: italic;
+    color: #333;
+}
+
+/* Destaque em palavras importantes */
+.highlight {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Estilos específicos para as caixas de aplicação prática */
+.application {
+    background-color: #d9e9ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* Títulos dentro da seção de aplicação */
+.application h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os blocos de aplicação prática */
+.application .harmonia {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Ajuste para os exemplos de texto dentro da seção de aplicação */
+.application .example {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Estilos para os títulos das harmônicas dentro da aplicação */
+.application h3 {
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Títulos dentro das caixas de harmonia */
+.harmonia h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as caixas de conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para os links (caso haja necessidade de links no futuro) */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
