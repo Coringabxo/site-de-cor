@@ -10,28 +10,28 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: #f4f4f4;
-    color: #555;
+    background-color: #5b7dd6;
+    color: #7595e0;
 }
 
 /* Estilos para o título principal */
 h1 {
     text-align: center;
-    color: #333;
+    color:  #90adeb;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
 /* Estilo para os subtítulos */
 h2, h3 {
-    color: #333;
+    color: #aac5f5;
     margin-top: 20px;
 }
 
 /* Estilo para os parágrafos */
 p {
     margin-bottom: 15px;
-    color: #555;
+    color: #c4ddff;
 }
 
 /* Estilo para listas */
